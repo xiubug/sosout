@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Cache-Control" content="no-transform " />
+    <meta name="keywords" content="技术求救号，搜搜就能解决，sosout，web前端开发，移动端开发，后端开发，APP开发，服务端运维，经典案例" />
+    <meta name="description" content="技术求救号（sosout）是提供优质的文章,打造系列级教程.技术求救号提供了丰富的web前端开发，移动端开发，后端开发，APP开发，服务端运维，经典案例等优质的文章。" />
+	<link rel="stylesheet" type="text/css" href="/css/common/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/css/common/common.css" />
+    <link rel="stylesheet" type="text/css" href="/css/common/icon.css" />
+    <script type="text/javascript" src="/js/lib/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+    <!--[if lt IE 9]>
+    	<script type="text/javascript" src="/js/lib/json-profill.js"></script>
+    <![endif]-->
+	{{{block ("head")}}}
+</head>
+<body>
+	{{{block ("body")}}}
+    <script>
+    // 百度统计
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?aed6dded356af07f3b5991c346dc812d";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body>
+</html>

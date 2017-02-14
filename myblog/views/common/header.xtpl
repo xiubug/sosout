@@ -1,0 +1,70 @@
+<div class="blog-header">
+	<div class="header-ad">
+		<img class="ad-img" src="/images/common/header-ad.png" alt="" />
+	</div>
+	<div class="header-navbar">
+		<div class="width-1180 bg-292929">
+			<ul id="header_navs" class="header-navs menu clear-fix">
+				{{#if(router === '/')}}
+					<li class="selected" >
+						<a href="/" title="首页">首页</a>
+					</li>
+				{{else}}
+					<li>
+						<a href="/" title="首页">首页</a>
+					</li>
+				{{/if}}
+				{{#if(router === 'front')}}
+					<li class="selected" >
+						<a href="/front" title="前端开发">前端开发</a>
+					</li>
+				{{else}}
+					<li>
+						<a href="/front" title="前端开发">前端开发</a>
+					</li>
+				{{/if}}
+				{{#if(router === 'back')}}
+					<li class="selected" >
+						<a href="/back" title="后端开发">后端开发</a>
+					</li>
+				{{else}}
+					<li>
+						<a href="/back" title="后端开发">后端开发</a>
+					</li>
+				{{/if}}
+				{{#if(router === 'appdev')}}
+					<li class="selected" >
+						<a href="/appdev" title="APP开发">APP开发</a>
+					</li>
+				{{else}}
+					<li>
+						<a href="/appdev" title="APP开发">APP开发</a>
+					</li>
+				{{/if}}
+				{{#if(router === 'server')}}
+					<li class="selected">
+						<a href="/server" title="服务器运维">服务器运维</a>
+					</li>
+				{{else}}
+					<li>
+						<a href="/server" title="服务器运维">服务器运维</a>
+					</li>
+				{{/if}}
+				{{#if(router === 'cases')}}
+					<li class="selected">
+						<a href="/cases" title="经典案例">经典案例</a>
+					</li>
+				{{else}}
+					<li>
+						<a href="/cases" title="经典案例">经典案例</a>
+					</li>
+				{{/if}}
+			</ul>
+		</div>
+	</div>
+	<div class="header-toptip">
+		<div class="width-1180">
+			<strong class="toptip-title">最新消息：</strong>转载请注明来源链接，谢谢！<span class="f-link">欢迎交换友链</span>
+		</div>
+	</div>
+</div>

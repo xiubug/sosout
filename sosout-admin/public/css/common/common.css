@@ -1,0 +1,221 @@
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+.bg-292929 {
+    background-color: #292929;
+}
+
+.bg-333 {
+    background-color: #333;
+}
+
+.blog-header {
+    position: relative;
+    width: 100%;
+}
+
+.blog-header .header-ad {
+    position: relative;
+    background-color: #428bca;
+    height: 80px;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 80px;
+    color: #fff;
+    min-width: 1180px;
+    text-align: center;
+}
+
+.blog-header .header-ad .ad-img {
+    margin-top: 20px;
+    width: 634px;
+    height: 40px;
+    display: inline-block;
+}
+
+.header-navbar {
+    position: relative;
+    width: 100%;
+    height: 52px;
+    background-color: #292929;
+    opacity: 0.9;
+    /* IE 4-9 */
+    filter: alpha(opacity=90);
+    /*This works in IE 8 & 9 too*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    /*IE4-IE9*/
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=90);
+}
+
+.header-navbar .header-navs {
+    position: relative;
+    left: 0;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 18px;
+}
+
+.header-navbar .header-navs > li {
+    position: relative;
+    float: left;
+}
+
+.header-navbar .header-navs > li.selected {
+    background-color: #428bca;
+    height: 49px;
+    color: #fff;
+    border-bottom: 3px solid #257cc7;
+}
+
+.header-navbar .header-navs > li > a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header-navbar .header-navs > li > a:hover {
+    color: #428bca;
+}
+
+.header-navbar .header-navs > li.selected > a:hover {
+    background-color: #428bca;
+    height: 49px;
+    color: #fff;
+    border-bottom: 3px solid #257cc7;
+}
+
+.blog-header .header-toptip {
+    position: relative;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    height: 35px;
+    font-size: 12px;
+    line-height: 35px;
+    padding: 0 20px;
+    color: #666;
+}
+
+.blog-header .toptip-title {
+    color: #56af45;
+}
+
+.blog-header .f-link {
+    color: #c00;
+}
+
+.blog-footer {
+    position: relative;
+    width: 100%;
+}
+
+.blog-footer .footer-ad {
+    background-color: #428bca;
+    height: 8px;
+    min-width: 1180px;
+}
+
+.blog-footer .footer-navbar {
+    height: 50px;
+    background-color: #333;
+}
+
+.footer-navs {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.footer-navs .beian {
+    font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline-block;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+}
+
+.footer-navs .beian img {
+    float: left;
+    margin-right: 5px;
+}
+
+.footer-navs .beian:hover {
+    color: #ddd;
+}
+
+
+/* 通用样式 */
+
+.menu,
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    height: 52px;
+}
+
+.menu li {
+    min-width: 160px;
+}
+
+.menu > li {
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.menu a {
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    color: #808080;
+    display: block;
+    font-size: 14px;
+    line-height: 52px;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+
+/* 悬停时的样式 */
+
+.menu li:hover {
+    background-color: #1c1c1c;
+    background: -moz-linear-gradient(#1c1c1c, #1b1b1b);
+    background: -ms-linear-gradient(#1c1c1c, #1b1b1b);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1c1c1c), color-stop(100%, #1b1b1b));
+    background: -webkit-linear-gradient(#1c1c1c, #1b1b1b);
+    background: -o-linear-gradient(#1c1c1c, #1b1b1b);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b')";
+    background: linear-gradient(#1c1c1c, #1b1b1b);
+}
+
+.menu li:hover > a {
+    color: #0da385;
+}
+
+.main-nav {
+    position: relative;
+    margin: 0;
+    line-height: 20px;
+    padding: 6px 20px;
+    font-size: 15px;
+    background-color: #F7F7F7;
+    height: 20px;
+    border-bottom: 1px solid #eaeaea;
+    font-weight: normal;
+}

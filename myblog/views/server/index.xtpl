@@ -1,0 +1,25 @@
+{{extend ("views/layout/left-right-layout")}}
+
+
+{{#block ("head")}}
+	<link rel="stylesheet" type="text/css" />
+{{/block}}
+
+{{#block ("ads")}}
+	{{include ("views/common/header.xtpl")}}
+{{/block}}
+
+{{#block ("block-main")}}
+	<div class="home-contents">
+		<div class="top-recommend">
+			<h2 class="main-nav">服务器运维</h2>
+			{{include ("views/common/blog-list.xtpl")}}
+		</div>
+	</div>
+{{/block}}
+
+{{#block ("block-right")}}
+	{{include ("views/common/hot-topic.xtpl")}}
+{{/block}}
+
+{{include ("views/common/footer.xtpl")}}

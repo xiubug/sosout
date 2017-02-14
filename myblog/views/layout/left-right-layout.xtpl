@@ -1,0 +1,23 @@
+{{extend ("views/layout/base")}}
+
+{{#block ("body")}}
+	
+	<!-- 广告区域 -->
+	{{{block ("ads")}}}
+
+	<div id="left-right-layout" class="left-right-layout">
+
+		<!-- 顶部区域 -->
+		<div class="block-top">{{{block ("block-top")}}}</div>
+		
+		<!-- 主要内容区域 -->
+		<div class="block-main">{{{block ("block-main")}}}</div>
+
+		<!-- 区域右侧 -->
+		<div id="blockRight" class="block-right">{{{block("block-right")}}}</div>
+		
+		<!-- 底部区域 -->
+		<div class="block-bottom">{{{block ("block-bottom")}}}</div>
+	</div>
+
+{{/block}}

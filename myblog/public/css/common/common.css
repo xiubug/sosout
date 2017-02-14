@@ -1,0 +1,474 @@
+img {
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+.bg-292929 {
+    background-color: #292929;
+}
+
+.bg-333 {
+    background-color: #333;
+}
+
+.blog-header {
+    position: relative;
+    width: 100%;
+}
+
+.blog-header .header-ad {
+    position: relative;
+    background-color: #428bca;
+    height: 80px;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 80px;
+    color: #fff;
+    min-width: 1180px;
+    text-align: center;
+}
+
+.blog-header .header-ad .ad-img {
+    margin-top: 20px;
+    width: 634px;
+    height: 40px;
+    display: inline-block;
+}
+
+.header-navbar {
+    position: relative;
+    width: 100%;
+    height: 52px;
+    background-color: #292929;
+    opacity: 0.9;
+    /* IE 4-9 */
+    filter: alpha(opacity=90);
+    /*This works in IE 8 & 9 too*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    /*IE4-IE9*/
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=90);
+}
+
+.header-navbar .header-navs {
+    position: relative;
+    left: 0;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 18px;
+}
+
+.header-navbar .header-navs > li {
+    position: relative;
+    float: left;
+}
+
+.header-navbar .header-navs > li.selected {
+    background-color: #428bca;
+    height: 49px;
+    color: #fff;
+    border-bottom: 3px solid #257cc7;
+}
+
+.header-navbar .header-navs > li > a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header-navbar .header-navs > li > a:hover {
+    color: #428bca;
+}
+
+.header-navbar .header-navs > li.selected > a:hover {
+    background-color: #428bca;
+    height: 49px;
+    color: #fff;
+    border-bottom: 3px solid #257cc7;
+}
+
+.blog-header .header-toptip {
+    position: relative;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    height: 35px;
+    font-size: 12px;
+    line-height: 35px;
+    padding: 0 20px;
+    color: #666;
+}
+
+.blog-header .toptip-title {
+    color: #56af45;
+}
+
+.blog-header .f-link {
+    color: #c00;
+}
+
+.blog-footer {
+    position: relative;
+    width: 100%;
+}
+
+.blog-footer .footer-ad {
+    background-color: #428bca;
+    height: 8px;
+    min-width: 1180px;
+}
+
+.blog-footer .footer-navbar {
+    height: 50px;
+    background-color: #333;
+}
+
+.footer-navs {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.footer-navs .beian {
+    font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline-block;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+}
+
+.footer-navs .beian img {
+    float: left;
+    margin-right: 5px;
+}
+
+.footer-navs .beian:hover {
+    color: #ddd;
+}
+
+
+/* 通用样式 */
+
+.menu,
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    height: 52px;
+}
+
+.menu li {
+    min-width: 160px;
+}
+
+.menu > li {
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.menu a {
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    color: #808080;
+    display: block;
+    font-size: 14px;
+    line-height: 52px;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+
+/* 悬停时的样式 */
+
+.menu li:hover {
+    background-color: #1c1c1c;
+    background: -moz-linear-gradient(#1c1c1c, #1b1b1b);
+    background: -ms-linear-gradient(#1c1c1c, #1b1b1b);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1c1c1c), color-stop(100%, #1b1b1b));
+    background: -webkit-linear-gradient(#1c1c1c, #1b1b1b);
+    background: -o-linear-gradient(#1c1c1c, #1b1b1b);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b')";
+    background: linear-gradient(#1c1c1c, #1b1b1b);
+}
+
+.menu li:hover > a {
+    color: #0da385;
+}
+
+.main-nav {
+    position: relative;
+    margin: 0;
+    line-height: 20px;
+    padding: 6px 20px;
+    font-size: 15px;
+    background-color: #F7F7F7;
+    height: 20px;
+    border-bottom: 1px solid #eaeaea;
+    font-weight: normal;
+}
+
+.recommend-list {
+    background-color: #fff;
+    padding: 20px 20px 20px 256px;
+    margin-bottom: 1px;
+    position: relative;
+    border-left: solid 4px #fff;
+    overflow: hidden;
+}
+
+.recommend-list:hover {
+    border-left-color: #428bca;
+    background-color: #F8FCFE;
+}
+
+.recommend-list:before,
+.recommend-list:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.recommend-list .new-icon {
+    position: absolute;
+    background: #ff5e52;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0 2px 0 0;
+    display: block;
+}
+
+.recommend-list .recommend-img {
+    float: left;
+    width: 220px;
+    margin-left: -240px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: table;
+}
+
+.recommend-list .recommend-img a {
+    display: table-cell;
+    vertical-align: middle;
+    width: 220px;
+    height: 110px;
+}
+
+.recommend-list .recommend-img a img {
+    margin: 0 auto;
+    max-width: 220px;
+    max-height: 110px;
+}
+
+.recommend-list .recommend-title {
+    margin: 0 40px 15px 0;
+}
+
+.recommend-list .recommend-title .label {
+    color: #fff;
+    background-color: #45bcf9;
+    padding: 3px 6px;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin-right: 6px;
+}
+
+.recommend-list .title {
+    display: inline;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 0;
+    font-weight: bold;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recommend-list .title:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.recommend-list .label .label-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    top: 7px;
+    right: -4px;
+    border-left: 4px solid #45bcf9;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.recommend-list .recommend-record .record {
+    color: #999;
+    margin-right: 20px;
+}
+
+.recommend-list .recommend-summary {
+    margin: 10px auto 0 auto;
+    font-size: 12px;
+    color: #999;
+    display: block;
+    word-break: break-all;
+    word-wrap: break-word;
+    height: 20px;
+    line-height: 20px;
+}
+
+
+/* 右侧面板 start*/
+
+.right-widget {
+    clear: both;
+    background-color: #fff;
+}
+
+.right-widget .widget-title {
+    position: relative;
+    margin: 0;
+    line-height: 20px;
+    padding: 6px 15px;
+    font-size: 12px;
+    background-color: #F7F7F7;
+    height: 20px;
+    border-bottom: 1px solid #eaeaea;
+    font-weight: normal;
+}
+
+.right-widget li a {
+    padding: 10px 15px 10px 105px;
+    border-bottom: solid 1px #eee;
+    border-left: 3px solid transparent;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    font-size: 14px;
+}
+
+.right-widget .nopic li a {
+    padding: 8px 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #666;
+}
+
+.right-widget li a .li-icon {
+    background: #ccc;
+    font-size: 12px;
+    color: #fff;
+    line-height: 180%;
+    margin: 0 5px 0 0;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+
+.right-widget li a .li-icon.li-icon-1 {
+    background: #c40000;
+}
+
+.right-widget li a .li-text {
+    font-size: 12px;
+}
+
+.right-widget li a:hover {
+    background-color: #f8fcfe;
+    border-left-color: #428bca;
+}
+
+.right-widget .nopic li a:hover {
+    color: #428bca;
+}
+
+
+/* 右侧面板 end*/
+
+.home-contents {
+    position: relative;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.top-recommend {
+    position: relative;
+    overflow: hidden;
+}
+
+.top-recommend .recommend-content {
+    margin-right: -2px;
+    height: auto;
+}
+
+.recommend-content li {
+    width: 50%;
+    float: left;
+    margin-bottom: 1px;
+    line-height: 20px;
+}
+
+.recommend-content li a {
+    display: block;
+    background-color: #fff;
+    margin-right: 1px;
+    padding: 5px 20px 5px 140px;
+}
+
+.recommend-content li a:hover {
+    background-color: #F8FCFE;
+    color: #3071A9;
+    text-decoration: none;
+}
+
+.recommend-content li img {
+    float: left;
+    margin: 8px 0 0 -120px;
+    max-width: 100px;
+    max-height: 70px;
+}
+
+.recommend-content li h3 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #428BD1;
+}
+
+.recommend-content li .summray {
+    overflow: hidden;
+    height: 40px;
+    color: #999999;
+    margin: 0 0 10px;
+}

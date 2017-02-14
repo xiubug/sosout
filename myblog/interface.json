@@ -1,0 +1,24 @@
+{
+    "title": "我的个人博客",
+    "version": "1.0.0",
+    "engine": "mockjs",
+    "rulebase": "./interfaceConfig/",
+    "status": "online",
+    "interfaces": [{
+        "id": "blog.recommend",
+        "name": "置顶推荐",
+        "ruleFile": "",
+        "urls": {
+            "online": "http://admin.sosout.com/recommend/queryAll"
+        },
+        "status": "online"
+    }, {
+        "id": "recent.publish",
+        "name": "最新发布",
+        "ruleFile": "",
+        "urls": {
+            "online": "http://admin.sosout.com/blog/blogList"
+        },
+        "status": "online"
+    }]
+}

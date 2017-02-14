@@ -1,0 +1,53 @@
+<div class="right-widget">
+	<h3 class="widget-title">热门文章</h3>
+	<ul class="nopic">
+		<li>
+			<a target="_blank" href="http://www.jianshu.com/p/c58f4af69304">
+				<span class="li-icon li-icon-1">1</span>
+				<span class="li-text">Vuejs中.vue文件里引入第三方js和样式文件（sass，less，css），简单实例</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="http://www.jianshu.com/p/a779ba3bbea9">
+				<span class="li-icon li-icon-1">2</span>
+				<span class="li-text">Android入门-Android Studio创建项目图解</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="http://www.jianshu.com/p/2a74e2a95709">
+				<span class="li-icon li-icon-1">3</span>
+				<span class="li-text">javascript一种新的对象创建方式-Object.create()</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="http://www.jianshu.com/p/4b8f9abe7328">
+				<span class="li-icon">4</span>
+				<span class="li-text">NodeJS模块开发及发布详解</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="http://www.jianshu.com/p/1790bf708f93">
+				<span class="li-icon">5</span>
+				<span class="li-text">Object.defineproperty实现数据和视图的联动</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://github.com/sosout/dev-tools/tree/master/linux/node/pm2">
+				<span class="li-icon">6</span>
+				<span class="li-text">使用PM2守护Nodejs命令行程序</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://github.com/sosout/dev-tools/tree/master/linux/mysql/rzero">
+				<span class="li-icon">7</span>
+				<span class="li-text">MySQL数据库自增主键归零的几种方法</span>
+			</a>
+		</li>
+		<li>
+			<a target="_blank" href="https://github.com/sosout/dev-tools/tree/master/linux/mysql/login">
+				<span class="li-icon">8</span>
+				<span class="li-text">Linux下登录MySQL</span>
+			</a>
+		</li>
+	</ul>
+</div>

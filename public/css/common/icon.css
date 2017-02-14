@@ -1,0 +1,169 @@
+.ubi-gray,
+.udou-gray,
+.uquan-gray,
+.uquan,
+.udou,
+.ubi-big,
+.ubi {
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	background: url(http://img.juxiangyou.com/common/public/ubi.png) no-repeat 0 0;
+	margin: 0 0 0 3px;
+	*zoom: 1;
+	*display: inline;
+	*vertical-align: middle;
+}
+
+.ubi-big {
+	width: 18px;
+	height: 18px;
+	background-position: 0 -66px;
+}
+
+.udou {
+	width: 12px;
+	height: 10px;
+	background-position: 0 -12px;
+}
+
+.uquan {
+	width: 15px;
+	height: 9px;
+	background-position: 0 -23px;
+}
+
+.ubi-gray {
+	background-position: 0 -33px;
+}
+
+.udou-gray {
+	width: 12px;
+	height: 10px;
+	background-position: 0 -45px;
+}
+
+.uquan-gray {
+	width: 15px;
+	height: 9px;
+	background-position: 0 -56px;
+}
+
+.svip-pic,
+.vip-pic {
+	display: inline-block;
+	width: 28px;
+	height: 12px;
+	background: url(http://img.juxiangyou.com/common/public/vip.png) no-repeat 0 0;
+	*zoom: 1;
+	*display: inline;
+	*vertical-align: middle;
+	margin: 0 0 0 3px;
+}
+
+.svip-pic {
+	width: 30px;
+}
+
+.vip0 {
+	background-position: 0 0;
+}
+
+.vip1 {
+	background-position: 0 -12px;
+}
+
+.vip2 {
+	background-position: 0 -24px;
+}
+
+.vip3 {
+	background-position: 0 -36px;
+}
+
+.vip4 {
+	background-position: 0 -48px;
+}
+
+.vip5 {
+	background-position: 0 -60px;
+}
+
+.vip6 {
+	background-position: 0 -72px;
+}
+
+.vip0-guoqi {
+	background-position: 0 -84px;
+}
+
+.vip1-guoqi {
+	background-position: 0 -96px;
+}
+
+.vip2-guoqi {
+	background-position: 0 -108px;
+}
+
+.vip3-guoqi {
+	background-position: 0 -120px;
+}
+
+.vip4-guoqi {
+	background-position: 0 -132px;
+}
+
+.vip5-guoqi {
+	background-position: 0 -144px;
+}
+
+.vip6-guoqi {
+	background-position: 0 -156px;
+}
+
+.svip1 {
+	background-position: 0 -168px;
+}
+
+.svip2 {
+	background-position: 0 -180px;
+}
+
+.svip3 {
+	background-position: 0 -192px;
+}
+
+.svip4 {
+	background-position: 0 -204px;
+}
+
+.svip5{
+	background-position: 0 -264px;
+}
+
+.svip1-guoqi {
+	background-position: 0 -216px;
+}
+
+.svip2-guoqi {
+	background-position: 0 -228px;
+}
+
+.svip3-guoqi {
+	background-position: 0 -240px;
+}
+
+.svip4-guoqi {
+	background-position: 0 -252px;
+}
+
+.svip5-guoqi {
+	background-position: 0 -276px;
+}
+
+.svz {
+	width: 14px;
+	height: 12px;
+	background-position: 0 -288px;
+	margin: 0 0 0 5px;
+}

@@ -1,0 +1,39 @@
+{{extend ("views/layout/left-right-layout")}}
+{{#block ("head")}}
+	<link rel="stylesheet" type="text/css" href="/css/home/home-index.css">
+{{/block}}
+
+{{#block ("ads")}}
+	{{include ("views/common/header.xtpl")}}
+{{/block}}
+
+{{#block ("block-main")}}
+	<div class="home-contents">
+		<div class="top-recommend">
+			<h2 class="main-nav">置顶推荐</h2>
+			<ul class="recommend-content">
+				{{#each (recommendData)}}
+					<li>
+						<a href="{{link}}" target="_blank">
+							<img src="/images/common/default.png" alt="{{title}}" />
+							<h3>{{title}}</h3>
+							<p class="summray">{{summary}}</p>
+						</a>
+					</li>
+				{{/each}}
+			</ul>
+		</div>
+		<div id="topRecommend" class="top-recommend" data-pagesize="2" data-pagextpl="common/blog-list.xtpl">
+			<h2 class="main-nav">最新发布</h2>
+			{{include ("views/common/blog-list.xtpl")}}
+		</div>
+	</div>
+{{/block}}
+
+{{#block ("block-right")}}
+	{{include ("views/common/hot-topic.xtpl")}}
+{{/block}}
+
+{{include ("views/common/footer.xtpl")}}
+
+<script type="text/javascript" src="/js/home/home-index.js"></script>

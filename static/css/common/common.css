@@ -1,0 +1,175 @@
+/*网页基本样式*/
+
+
+/* 清除内外边距 */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+
+/* structural elements 结构元素 */
+
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+
+/* list elements 列表元素 */
+
+pre,
+
+/* text formatting elements 文本格式元素 */
+
+fieldset,
+legend,
+button,
+input,
+textarea,
+
+/* form elements 表单元素 */
+
+th,
+td
+/* table elements 表格元素 */
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 设置默认字体 */
+
+body,
+button,
+input,
+select,
+textarea {
+    /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font: 12px/1 Microsoft YaHei, "\5b8b\4f53", Tahoma, Helvetica, Arial, sans-serif;
+    /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/* 重置文本格式元素 */
+
+a {
+    text-decoration: none;
+    outline: none
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* 重置表格元素 */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* 重置 hr */
+
+hr {
+    border: none;
+    height: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+
+html {
+    overflow-y: scroll;
+}
+
+fieldset,
+img {
+    border: none;
+    vertical-align: top;
+}
+
+.clear-fix {
+    *zoom: 1
+}
+
+.clear-fix:before,
+.clear-fix:after {
+    display: table;
+    content: ""
+}
+
+.clear-fix:after {
+    clear: both
+}
+
+body {
+    background-color: #eee;
+}
+
+
+/*图片滤镜*/
+
+.img-gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.width-1180 {
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+/**************** 公用颜色样式 ********************/
+
+.bg-fff {
+    background-color: #fff;
+}
+
+.bg-292929 {
+    background-color: #292929;
+}
+
+.bg-333 {
+    background-color: #333;
+}
+
+
+/**************** 公用颜色样式 ********************/

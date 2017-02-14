@@ -1,0 +1,16 @@
+{{extend ("views/layout/left-right-layout")}}
+
+
+{{#block ("head")}}
+	<link rel="stylesheet" type="text/css" />
+{{/block}}
+
+{{#block ("ads")}}
+	{{include ("views/common/header.xtpl")}}
+{{/block}}
+
+{{#block ("block-main")}}
+	{{title}}
+{{/block}}
+
+{{include ("views/common/footer.xtpl")}}

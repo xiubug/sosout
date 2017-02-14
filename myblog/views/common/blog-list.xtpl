@@ -1,0 +1,23 @@
+{{#each (pageData.blogList)}}
+	<div class="recommend-list">
+		{{#if (xindex === 0 && pageData.pageNum === 1)}}
+			<span class="new-icon">最新</span>
+		{{/if}}
+        <div class="recommend-img">
+            <a target="_blank" href="{{link}}" title="{{title}}">
+                <img src="{{img_url}}" alt="{{title}}" />
+            </a>
+        </div>
+        <div class="recommend-title">
+            <a class="label" href="{{router}}">
+                {{category}}<i class="label-arrow"></i>
+            </a>
+            <a target="_blank" class="title" href="{{link}}" title="{{title}}">{{title}}</a>
+        </div>
+        <div class="recommend-record">
+            <span class="record"><i class="icon-time icon12"></i> {{StringUtils.formatDate(create_time)}}</span>
+            <span class="record"><i class="icon-eye-open icon12"></i> {{views}}浏览</span>
+        </div>
+        <p class="recommend-summary">{{summary}}</p>
+    </div>
+{{/each}}

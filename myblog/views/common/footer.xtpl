@@ -1,0 +1,10 @@
+<div class="blog-footer">
+	<div class="footer-ad"></div>
+	<div class="footer-navbar">
+		<div class="width-1180 bg-333">
+			<div class="footer-navs">版权所有，保留一切权利！ © 2016 技术求救号 鲁ICP备16035570号-1
+                <a class="beian" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132502371356"><img src="/images/common/beian.png" />鲁公网安备 37132502371356号</a>
+            </div>
+		</div>
+	</div>
+</div>
