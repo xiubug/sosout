@@ -1,0 +1,9 @@
+# 此为注释 - 将被 Git 忽略
+
+# 忽略 node_modules/ 目录下的所有文件
+node_modules/
+
+# 忽略自动生成的dist文件
+npm-debug.log
+
+test.html
