@@ -11,7 +11,7 @@
 
 {{#block ("block-main")}}
 	<div class="home-contents">
-		<div class="top-recommend">
+		<div id="commonBlogList" class="top-recommend" data-pagesize="5" data-pagextpl="common/blog-list.xtpl">
 			<h2 class="main-nav">前端开发</h2>
 			{{include ("views/common/blog-list.xtpl")}}
 		</div>

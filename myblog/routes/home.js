@@ -24,7 +24,7 @@ function getIndex(req, res, next) {
     });
     indexModel
         .recommendData()
-        .blogList({ pageNum: 1, pageSize: 10 })
+        .blogList({ pageNum: 1, pageSize: 5 })
         .done(function(recommendData, blogList) {
             var pageData = {
                 blogList: blogList,
@@ -53,6 +53,7 @@ function getCommon(req, res, next) {
         .blogList({ pageNum: params.pageNum, pageSize: params.pageSize })
         .done(function(blogList) {
             var pageData = {
+                code: 0,
                 blogList: blogList,
                 pageNum: params.pageNum
             };

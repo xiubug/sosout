@@ -10,7 +10,18 @@
 {{/block}}
 
 {{#block ("block-main")}}
-	{{title}}
+	<div class="home-contents">
+		<div id="commonBlogList" class="top-recommend" data-pagesize="5" data-pagextpl="common/blog-list.xtpl">
+			<h2 class="main-nav">经典案例</h2>
+			{{include ("views/common/blog-list.xtpl")}}
+		</div>
+	</div>
+{{/block}}
+
+{{#block ("block-right")}}
+	{{include ("views/common/hot-topic.xtpl")}}
 {{/block}}
 
 {{include ("views/common/footer.xtpl")}}
+
+<script type="text/javascript" src="/js/cases/cases-index.js"></script>

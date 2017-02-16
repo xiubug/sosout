@@ -24,10 +24,9 @@ module.exports = {
         pool.getConnection(function(err, connection) {
             // 获取前台页面传过来的参数
             var param = req.query || req.params;
-            var pageNum = param.pageNum || 1;
-            var pageSize = param.pageSize || 10; // 默认页数
-            var start = (pageNum - 1) * pageSize;
-            var end = pageNum * pageSize;
+            var pageNum = parseInt(param.pageNum || 1);
+            var end = parseInt(param.pageSize || 10); // 默认页数
+            var start = (pageNum - 1) * end;
             if (req.query.type) {
                 connection.query($sql.queryByType, [param.type, start, end], function(err, result) {
                     jsonWrite(res, result);

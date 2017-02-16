@@ -23,7 +23,7 @@
 				{{/each}}
 			</ul>
 		</div>
-		<div id="topRecommend" class="top-recommend" data-pagesize="2" data-pagextpl="common/blog-list.xtpl">
+		<div id="commonBlogList" class="top-recommend" data-pagesize="5" data-pagextpl="common/blog-list.xtpl">
 			<h2 class="main-nav">最新发布</h2>
 			{{include ("views/common/blog-list.xtpl")}}
 		</div>

@@ -21,3 +21,9 @@
         <p class="recommend-summary">{{summary}}</p>
     </div>
 {{/each}}
+
+{{#if (pageData.blogList.length === 5)}}
+    <div id="loadMore" class="load-more next-page">下一页</div>
+{{else}}
+    <div class="load-more">没有更多内容了</div>
+{{/if}}

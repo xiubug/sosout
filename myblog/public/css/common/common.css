@@ -249,6 +249,24 @@ a:hover {
     line-height: 0;
 }
 
+.load-more {
+    position: relative;
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-top: 10px;
+    height: 35px;
+    line-height: 35px;
+    width: 880px;
+    overflow: hidden;
+}
+
+.load-more.next-page {
+    color: #ffffff;
+    background: #5cb85c;
+    cursor: pointer;
+}
+
 .recommend-list .new-icon {
     position: absolute;
     background: #ff5e52;

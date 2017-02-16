@@ -24,7 +24,7 @@ $(function() {
         loadMore.text('数据加载中...');
         if (loadMore.hasClass('next-page')) loadMore.removeClass('next-page');
         $.ajax({
-            url: '/front/common',
+            url: '/cases/common',
             type: 'POST',
             data: { pageNum: pageNum, pageSize: pageBox.data('pagesize'), xtpl: pageBox.data('pagextpl') },
             dataType: "html",
