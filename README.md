@@ -12,7 +12,7 @@
 #####个人博客： http://blog.sosout.com/
 #####个人简书： http://www.jianshu.com/users/23b9a23b8849/latest_articles
 #####项目结构： 
-
+```
 |-- demo                         	 // 特殊功能单独示例
 |-- myblog                           // 博客源码(http://blog.sosout.com/)技术架构：express + node + xtemplate + mockjs + modelproxy-copy
 |-- sosout-admin                     // 博客后台源码nodejs + express
@@ -24,28 +24,3 @@
 |-- README.md                        // 说明
 ```
 
-
-### 快速开始
-
-```
-# git clone
-git clone https://github.com/sosout/sosout.git
- 
-# install dependencies
-npm install
-
-# serve at localhost:3000
-npm start
-
-# 访问路径
-http://localhost:3000/
-```
-
-####历史更新
-  *2016.12.18*
-
-  	1. 初始化项目搭建;
-
-  	2. 引入express作为博客后台地址;
-
-  	3. 创建doc作为博文的详情目录(即所有的博文都链接github下的该名录，后期会进行改版)
