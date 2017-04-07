@@ -16,7 +16,7 @@
   "devDependencies": {
     "express-autoroute": "^1.2.4",
     "mockjs": "^1.0.1-beta3",
-    "modelproxy-copy": "^0.0.2",
+    "modelproxy-copy": "^0.0.3",
     "mysql": "^2.11.1",
     "xtemplate": "^4.6.0",
     "xtpl": "^3.2.0"
