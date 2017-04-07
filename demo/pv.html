@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>setTimeout</title>
+    <script type="text/javascript" src="js/flexible.js"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+	var a = [1, 2, 3];
+	var l = a.length;
+	for(var i = 0; i < l; i++) {
+		setTimeout(function(i) {
+			console.log(i);
+		}, 200)
+	}
+</script>
+</body>
+
+</html>
