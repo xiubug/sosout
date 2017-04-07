@@ -62,7 +62,5 @@ app.use(function(err, req, res, next) {
     });
 });
 
-app.listen(app.get('port'));
-
 console.log("当前执行环境：" + process.env.NODE_ENV);
 module.exports = app;
