@@ -38,7 +38,6 @@ module.exports = {
                     connection.release();
                 });
             }
-
         });
     }
 };

@@ -51,9 +51,12 @@
     <script type="text/javascript" src="js/zepto.min.js"></script>
     <script type="text/javascript">
     $.ajax({
-        url: 'http://admin.sosout.com/recommend/queryAll',
+        url: 'http://localhost:3000/users',
         type: 'GET',
         data: '',
+        beforeSend: function(request) {
+            request.setRequestHeader("Test", "Chenxizhang");
+        },
         success: function(result) {
             console.log(result[0].title);
         },
