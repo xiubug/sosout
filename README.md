@@ -5,6 +5,11 @@
 
 >  如果觉得不错的话，请star一下吧 😊
 
+### 小广告
+```
+  JS/React/Vue/Angular前端：599399742
+```
+
 #####使用技术： 前端架构express + node + xtemplate + mockjs + modelproxy-copy，服务端架构nodejs + express
 #####项目说明： 此项目是本人空余时间搭建的。希望大家提供宝贵的意见和建议，谢谢。
 #####邮&emsp;&emsp;&ensp;箱： sosout@yeah.net
