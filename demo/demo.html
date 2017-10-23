@@ -6,63 +6,41 @@
     <title>仿淘宝手机充值记录效果——wch</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
     <link rel="shortcut icon" href="../static/favicon/favicon.ico" type="image/x-icon">
-    <script type="text/javascript">
-    (function(doc, win) {
-        var docEl = doc.documentElement,
-            isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
-            dpr = isIOS ? Math.min(win.devicePixelRatio, 3) : 1,
-            dpr = window.top === window.self ? dpr : 1, //被iframe引用时，禁止缩放
-            dpr = 1,
-            scale = 1 / dpr,
-            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
-        docEl.dataset.dpr = dpr;
-        var metaEl = doc.createElement('meta');
-        metaEl.name = 'viewport';
-        metaEl.content = 'initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale;
-        docEl.firstElementChild.appendChild(metaEl);
-        var recalc = function() {
-            var width = docEl.clientWidth;
-            if (width / dpr > 750) {
-                width = 750 * dpr;
-            }
-            docEl.style.fontSize = 100 * (width / 750) + 'px';
-        };
-        recalc()
-        if (!doc.addEventListener) return;
-        win.addEventListener(resizeEvt, recalc, false);
-    })(document, window);
-    </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone = no" />
     <link rel="stylesheet" type="text/css" href="css/topnav.css" />
-    <style>
-    li {
-        height: .8rem;
-        line-height: .8rem;
-        border-bottom: 1px solid #e8e8e8;
-        padding-left: .3rem;
-        color: #c8c7cc;
-    }
-    </style>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 <body class="body-bg">
-    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <h2>测试数据</h2>
     <script type="text/javascript">
+    $(function() {
+         var d = {
+        userName: 'huyb',
+        password: '1236',
+        userType: 1
+    };
     $.ajax({
-        url: 'http://localhost:3000/users',
-        type: 'GET',
-        data: '',
+        url: 'http://192.168.1.42:8081/user/v1/forgetPassWord',
+        type: 'POST',
+        data: d,
         beforeSend: function(request) {
-            request.setRequestHeader("Test", "Chenxizhang");
+            request.setRequestHeader("Authorization", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJqd3QiLCJpYXQiOjE0OTI0MDYwMjAsInN1YiI6IntcInVzZXJOYW1lXCI6XCJodXliXCIsXCJ1c2VySWRcIjoxLFwidXVpZFwiOlwiNDdmZGRmODYtNjJlMC00NWQ3LWIzNzEtOTE0NDNlOGNkNWNiXCIsXCJ1c2VyVHlwZVwiOjEsXCJuaWNrTmFtZVwiOlwiaHV5YlwiLFwidG9rZW5cIjpudWxsfSIsImV4cCI6MTQ5NjAwNjAyMH0.pXaJXiAL_TKeKRTLHYv9kMF9rGFq1we-W-3O6_aBlk8");
         },
         success: function(result) {
-            console.log(result[0].title);
         },
-        error: function() {}
+        error: function(err) {
+            alert(JSON.stringify(err));
+        }
     })
+    })
+   
     </script>
 </body>
 
 </html>
+
+
+
