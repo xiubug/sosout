@@ -101,6 +101,12 @@
     color: #ddd;
 }
 
+.sosout-adr {
+    position: fixed;
+    right: 0;
+    top: 80px;
+}
+
 
 /* 通用样式 */
 
