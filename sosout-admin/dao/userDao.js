@@ -49,5 +49,15 @@ module.exports = {
                 });
             }
         });
+    },
+    getUser: function(req, res, next) {
+      pool.getConnection(function(err, connection) {
+        var param = req.query || req.params;
+        var id = param.id;
+        connection.query($sql.getUser, [id], function(err, result) {
+          jsonWrite(res, result);
+          connection.release();
+        });
+      })
     }
 };
