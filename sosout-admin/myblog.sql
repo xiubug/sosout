@@ -10,10 +10,36 @@ Target Server Type    : MYSQL
 Target Server Version : 50713
 File Encoding         : 65001
 
-Date: 2017-12-12 15:37:41
+Date: 2017-12-15 11:12:59
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for ads
+-- ----------------------------
+DROP TABLE IF EXISTS `ads`;
+CREATE TABLE `ads` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  `href` varchar(255) DEFAULT NULL,
+  `create_time` datetime DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of ads
+-- ----------------------------
+INSERT INTO `ads` VALUES ('1', '礼物还没买？捡漏不只1折圣诞奢礼', 'http://sosout.com/static/images/tb/home-ad1.jpg', null, '2017-12-15 11:00:48', '2017-12-15 11:01:31');
+INSERT INTO `ads` VALUES ('2', 'CBD家具开仓大降价啦，只卖2999元', 'http://sosout.com/static/images/tb/home-ad2.jpg', null, '2017-12-14 11:00:53', '2017-12-15 11:01:35');
+INSERT INTO `ads` VALUES ('3', '100%纯实木全场3折起环保无贴皮', 'http://sosout.com/static/images/tb/home-ad3.jpg', null, '2017-12-06 11:00:59', '2017-12-15 11:01:38');
+INSERT INTO `ads` VALUES ('4', '每日坚果健康生活好味道自然来', 'http://sosout.com/static/images/tb/home-ad4.jpg', null, '2017-12-12 11:01:04', '2017-12-15 11:01:45');
+INSERT INTO `ads` VALUES ('5', '值得逛好店一直在寻找的美鞋', 'http://sosout.com/static/images/tb/home-ad5.jpg', null, '2017-11-26 11:01:10', '2017-12-15 11:01:42');
+INSERT INTO `ads` VALUES ('6', '鲜活人生乳此不同', 'http://sosout.com/static/images/tb/home-ad6.jpg', null, '2017-12-20 11:01:15', '2017-12-15 11:01:49');
+INSERT INTO `ads` VALUES ('7', '聚划算大牌服饰折扣季15日0点开抢', 'http://sosout.com/static/images/tb/home-ad7.jpg', null, '2017-12-28 11:01:20', '2017-12-15 11:01:52');
+INSERT INTO `ads` VALUES ('8', '家清好货抢不停2件9折', 'http://sosout.com/static/images/tb/home-ad8.jpg', null, '2017-11-30 11:01:25', '2017-12-15 11:01:55');
 
 -- ----------------------------
 -- Table structure for blog_list
